@@ -1,0 +1,28 @@
+.container{
+  margin-top: 3rem;
+  border-left: 3px solid var(--sm-text);
+}
+
+.container:first-child{
+  margin-top: -1rem ;
+}
+
+.container:last-child{
+  margin-bottom: 3rem;
+}
+
+.content{
+  color: var(--sm-text);
+  font-weight: 300;
+}
+
+.heading{
+  color: #fff;
+  font-weight: 600;
+}
+
+.heading, .content{
+  margin-left: 2rem;
+  font-size: 24px;
+  padding: 0rem 1rem 1rem 1rem;
+}

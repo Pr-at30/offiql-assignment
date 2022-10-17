@@ -1,0 +1,31 @@
+.navwrapper{
+  background-color: var(--bg-navbar);
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+  padding: 0 1rem;
+}
+
+.navlink{
+  display: flex;
+  align-items: center;
+  font-weight: 500;
+  font-size: x-small;
+  color: #E0ECFF;
+  padding: 0.5rem 1.5rem ;
+}
+
+.navlink:hover{
+  cursor: pointer;
+}
+
+/* left border on the last element */
+.navlink:last-child{
+  border-left: 3px solid #363A44;
+  margin-top: 0.4rem;
+  margin-bottom: 0.4rem;
+}
+
+.texxt{
+  margin-left: 0.1rem;
+}

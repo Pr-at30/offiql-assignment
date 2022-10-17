@@ -1,0 +1,38 @@
+.container{
+  background-color: var(--bg-info);
+  display: flex;
+}
+
+.heading{
+  font-size: 3.5rem;
+  font-weight: 700;
+  color: #fff;
+  padding-top: 1.5rem;
+  padding-left: 4rem;
+}
+
+.highlight{
+  color: var(--highlight);
+}
+
+.left{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+}
+
+.right{
+  margin-right: 4rem;
+}
+
+.text{
+  padding-top: 4rem;
+  padding-left: 4rem;
+  padding-right: 7rem;
+  font-size: x-large;
+}
+
+.info{
+  margin-top: 2rem;
+}
